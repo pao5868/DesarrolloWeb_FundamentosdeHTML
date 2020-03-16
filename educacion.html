@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html style="font-family:Verdana, Geneva, Tahoma, sans-serif">
+
+<head>
+    <meta charset="utf-8">
+    <title>Educacion</title>
+</head>
+
+<body>
+    <!--Sección de logo SVG con mis iniciales-->
+    <svg width="200" height="150">
+        <g class="layer">
+            <title>Layer 1</title>
+            <polygon fill="#007fff" id="svg_1"
+                points="165.88729858398438,75.90623474121094 114.949462890625,165.23313903808594 32.530296325683594,131.11328125 32.530296325683594,20.699188232421875 114.949462890625,-13.420642852783203 165.88729858398438,75.90623474121094 "
+                stroke="#000000" stroke-width="3" transform="rotate(-90 99.2088 75.9063)" />
+            <text fill="#00ff00" font-family="Cursive" font-size="92" font-weight="bold" id="svg_2" stroke="#000000"
+                stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0"
+                text-anchor="middle" transform="matrix(1 0 0 0.944767 0 -23.5503)" x="98.75" xml:space="preserve"
+                y="147.033701">PZ</text>
+        </g>
+    </svg>
+    <!--Sección de datos personales, compuesto titulos de diferentes niveles con informacion personal-->
+    <header>
+        <h1 align="center">Curriculum Vitae</h1>
+    </header>
+    <h2 align="center">Paola Zambrano</h2>
+    <h3 align="center">1 de Enero de 1991</h3>
+    <h3 align="center">Bogotá. Colombia</h3>
+    <!--Sección de navegación, compuesto de las otras paginas que componen el Curriculum-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+    </nav>
+    <!--Sección de educación, compuesto de tabla con información de certificación, titulos, etc-->
+    <section>
+        <h2>Educación</h2>
+        <table border="1">
+            <tr align="center">
+                <th>Año</th>
+                <th>Institución</th>
+                <th>Lugar</th>
+                <th>¿Culmino?</th>
+            </tr>
+            <tr>
+                <td>2008</td>
+                <td>Universidad</td>
+                <td>Bogotá</td>
+                <td>Si</td>
+            </tr>
+            <tr>
+                <td>2014</td>
+                <td>Microsoft</td>
+                <td>Bogotá</td>
+                <td>Si</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>Next U</td>
+                <td>Bogotá</td>
+                <td>En proceso</td>
+            </tr>
+        </table>
+    </section>
+    <!--Sección Agregar Estudios, compuesto de campos de texto, listas desplegables, areas de texto y boton 
+    con sus validaciones, para agregar estudios a la tabla de la sección de Educación-->
+    <section>
+        <h4>Agregar Estudios</h4>
+        <form>
+            <label>Año:</label>
+            <select>
+                <option>2016</option>
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+            </select>
+            <br>
+            <label>Institución:</label>
+            <input type="text" name="Institucion" required="required">
+            <br>
+            <label>Lugar:</label>
+            <textarea rows="2" cols="30"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--Pie de pagina con información relevante-->
+    <footer>
+        <font color="Blue">E-mail:pao@gmail.com | Celular: 310 311 12 13 | Intagram: @pao</font>
+    </footer>
+</body>
+
+</html>
